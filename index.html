@@ -430,15 +430,14 @@
                     <label class="modal-form-label-comment" for="user-comment">Comment</label>
                     <textarea class="modal-textarea" id="user-comment" placeholder="Text input"></textarea>
                 </div>
-                <div class="modal-checkbox">
-                    <label for="user-checkbox" class="custom-label-user-checkbox"><input type="checkbox" id="user-checkbox" class="checkbox visually-hidden" />
-                        <span class="custom-checkbox">
-                            <svg width="10" height="8">
-                                <use href="./images/icons.svg#icon-vector"></use>
-                            </svg>
-                        </span><p>I accept the terms and conditions of the</p><a class="privacy-policy" href="#">Privacy Policy</a>
-                    </label>
-                </div>
+               <div class="modal-con-checkbox">
+                <input class="checkbox visually-hidden" type="checkbox" id="user-checkbox"/>
+                <label class="custom-label-checkbox" for="user-checkbox">
+                    <span class="custom-checkbox">
+                        <svg class="" width="10" height="8"><use href="./images/icons.svg#icon-vector"></use></svg>
+                    </span> I accept the terms and conditions of the <a class="privacy-policy" href="#">Privacy Policy</a>
+                </label>
+               </div>
                 <button class="button-send" type="button">Send</button>
             </form>
         </div>
