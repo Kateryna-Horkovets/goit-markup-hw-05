@@ -161,7 +161,6 @@ h1, h2, h3, h4, h5, h6, p {
     position: absolute;
     top: 10px;
     right: 24px;
-    height: 24;
     fill: #fff;
     margin-left: 16px;
 }
@@ -648,15 +647,6 @@ border-color: #4D5AE5;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 16px;
-}
-
-.modal-form-label-comment {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    margin-bottom: 4px;
 }
 
 .modal-textarea {
