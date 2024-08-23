@@ -93,7 +93,6 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-wrap {
     display: flex;
     align-items: baseline;
-    margin-left: 156px;
 }
 .logo-p-wrap {
     margin-right: auto;
@@ -117,12 +116,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .footer-form {
     margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 453px;
-    height: 80px;
 }
 .footer-form-text {
     font-weight: 500;
@@ -156,6 +149,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #fff;
     cursor: pointer;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-button-icon {
     position: absolute;
@@ -254,7 +248,9 @@ color: #404bbf;
 .hero-image-button:hover, 
 .hero-image-button:focus,
 .button-send:hover, 
-.button-send:focus {
+.button-send:focus,
+.button-subscribe:focus,
+.button-subscribe:hover {
     background-color: #404BBF;
 }
 .about-us {
@@ -568,18 +564,12 @@ transform: translate(0);
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 72px;
     font-family: "Roboto", sans-serif;
     margin-bottom: 16px;
 }
 .button-send {
     display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
     border-radius: 4px;
-    padding: 16px 32px;
     min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -593,13 +583,11 @@ transform: translate(0);
     letter-spacing: 0.04em;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    margin: 24px auto;
+    margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-wrapper-cont {
     margin-bottom: 8px;
-    margin-left: 24px;
-    margin-right: 24px;
 }
 
 .modal-form-label {
@@ -643,9 +631,6 @@ border-color: #4D5AE5;
 }
 .form-wrapper-cont-comment {
     display: block;
-    margin-bottom: 8px;
-    margin-left: 24px;
-    margin-right: 24px;
     margin-bottom: 16px;
 }
 
